@@ -5,7 +5,7 @@ var textChartsAfter = text.replace('Velociraptor', dinosaurUpperCase);
 
 /*console.log(textChartsAfter.length/2);*/
 
-var partOftext = textChartsAfter.slice(0, 72);
+var partOftext = textChartsAfter.slice(0, textChartsAfter.length/2);
 console.log(partOftext);
 
 
