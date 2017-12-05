@@ -3,9 +3,7 @@ var dinosaur = 'triceratops';
 var dinosaurUpperCase = dinosaur.toUpperCase();
 var textChartsAfter = text.replace('Velociraptor', dinosaurUpperCase);
 
-/*console.log(textChartsAfter.length/2);*/
-
-var partOftext = textChartsAfter.slice(0, textChartsAfter.length/2);
+var partOftext = textChartsAfter.slice(0, textChartsAfter.length / 2);
 console.log(partOftext);
 
 
